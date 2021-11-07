@@ -1,0 +1,4 @@
+1. youtube-dl -f 137+140 --merge-output-format mp4 -o '%(title)s.%(ext)s' 'https://www.youtube.com/watch?v=DbUl4m6hlPY' *1080 with audio 
+2. youtube-dl -f 137 "https://www.youtube.com/watch?v=DbUl4m6hlPY"*1080 without audio
+3. youtube-dl -f 137+140 --merge-output-format mp4 -o '%(title)s.%(ext)s' 'https://youtube.com/playlist?list=PLX9ciqY-LU_cg0-6M_DKwFSvM8OqpV8BX'*1080 with audio playlist 
+4. youtube-dl -o '%(playlist)s/%(title)s.%(ext)s' 'https://youtube.com/playlist?list=PLX9ciqY-LU_cg0-6M_DKwFSvM8OqpV8BX' *720 with audio playlist 
